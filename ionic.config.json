@@ -1,0 +1,7 @@
+{
+  "name": "APIDEMO",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

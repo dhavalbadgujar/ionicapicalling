@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list *ngFor="let user of userDetails">
+
+    <ion-item>
+
+      {{user.driverName}} {{user.emailId}} {{user.cityId}} {{user.contactNum}}
+    </ion-item>
+
+  </ion-list>
+</ion-content>
